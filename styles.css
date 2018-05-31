@@ -1,0 +1,24 @@
+/**
+ * 
+ * styles.css
+ * basic layout using css grid
+ *
+ */
+
+.header {
+    grid-area: header;
+}
+
+.content { 
+    grid-area: content;
+}
+
+.side {
+   grid-area: side;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
