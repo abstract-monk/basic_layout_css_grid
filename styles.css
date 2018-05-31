@@ -5,6 +5,7 @@
  *
  */
 
+/* set up grid-template-areas */
 .header {
     grid-area: header;
 }
@@ -21,4 +22,15 @@
     grid-area: footer;
 }
 
+/* set up mobile layout */
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "content"
+      "footer";
+  }
 
