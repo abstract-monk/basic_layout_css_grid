@@ -9,8 +9,8 @@ a two column layout with the sidebar to the left.
 
 The sections are ordered as such:
 
-Header
-Sidebar
-Content
-Footer
+* Header
+* Sidebar
+* Content
+* Footer
 
